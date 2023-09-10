@@ -1,0 +1,1 @@
+# answers on variables and if .. else in c
