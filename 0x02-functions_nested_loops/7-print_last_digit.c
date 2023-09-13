@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * print_last_digit - Prints the last digit
@@ -23,5 +24,4 @@ int print_last_digit(int n)
 		putchar(c + 48);
 		return (c);
 	}
-    putchar('\n');
 }
