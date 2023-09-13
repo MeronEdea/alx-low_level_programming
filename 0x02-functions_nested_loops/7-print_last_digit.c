@@ -13,14 +13,5 @@ int print_last_digit(int n)
 	int c;
 
 	c = n % 10;
-	if (c < 0)
-	{
-        c = -c + 48;
-		return (-c);
-	}
-	else
-	{
-        c = c + 48;
-		return (c);
-	}
+	return c;
 }
