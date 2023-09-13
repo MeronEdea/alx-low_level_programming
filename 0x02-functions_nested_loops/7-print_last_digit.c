@@ -15,12 +15,10 @@ int print_last_digit(int n)
 	c = n % 10;
 	if (c < 0)
 	{
-		putchar(-c + 48);
-		return (-c);
+		return (putchar(-c + 48), -c); 
 	}
 	else
 	{
-		putchar(c + 48);
-		return (c);
+		return (putchar(c + 48), c); 
 	}
 }
