@@ -2,7 +2,6 @@
 
 /**
  * Checks if a given character is lowercase or not.
- * 
  * @param c The character to check.
  * @return 1 if the character is lowercase, 0 otherwise.
  */
