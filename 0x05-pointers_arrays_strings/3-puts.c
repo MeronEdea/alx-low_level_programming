@@ -13,10 +13,10 @@ void _puts(char *str)
 	{
 		if (str[c] == '\0')
 		{
-			_putchar('\n');
+			putchar('\n');
 			break;
 		}
-		_putchar(str[c]);
+		putchar(str[c]);
 		c++;
 	}
 }
