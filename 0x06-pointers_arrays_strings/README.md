@@ -1,0 +1,1 @@
+# c problems and solution on pointers and arrays
