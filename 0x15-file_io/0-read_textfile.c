@@ -2,10 +2,10 @@
 
 /**
  * read_textfile - reads a text file and prints the letters
- * @filename: the name of the file.
+ * @filename: filename.
  * @letters: numbers of letters printed.
- * 
- * Return: the actual number of letters it could read and printd. If it fails, it returns 0.
+ *
+ * Return: numbers of letters printed. It fails, returns 0.
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
